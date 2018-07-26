@@ -1,11 +1,13 @@
+
 body{
 	padding-top: 70px;
+	font-family: 'Slabo 27px', serif;
 }
 
 .jumbotron{
 	color: #2c3e50;
 	background-color: #ecf0f1;
-
+		
 }
 
 .navbar-inverse{
@@ -17,4 +19,129 @@ body{
 
 .navbar-inverse .navbar-brand{
 	color: white;
+}
+
+#me{
+	width: 400px;
+	margin:0px auto; 
+	text-align:center;
+}
+
+.container {
+  margin: 0px auto;
+  padding: 0px;	
+}
+
+#main { 
+  background: #2c3e50;
+  height: 300px;
+  width: 700px;
+  margin:0px auto; 
+  text-align:center;
+  margin-bottom: 70px;
+}
+
+.content {
+  padding: 10px 44px;
+}
+
+.text {
+  border-bottom: 1px solid #262626;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.text h2 {
+  color: #E5E5E5;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.counter {
+  background: #2C2C2C;
+  -moz-box-shadow:    inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow:         inset 0 0 5px #000000;
+  min-height: 130px;
+  text-align: center;
+}
+
+.counter h3 {
+  color: #E5E5E5;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+#countdown {
+  color: #FFFFFF;
+}
+
+#countdown span {
+  color: #E5E5E5;
+  font-size: 26px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+
+@media (max-width: 767px) {
+
+    body{
+    	font-family: 'Slabo 27px', serif;
+    }
+    #me{
+	width: 100%;
+	margin:0px auto; 
+	text-align: center;
+	}
+	.jumbotron{
+	color: #2c3e50;
+	background-color: #ecf0f1;
+	width: 100%; 	
+	}
+	#main { 
+  background: #2c3e50;
+  margin:0px auto; 
+  text-align:center;
+  margin-bottom: 70px;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 30%;
+}
+.content{
+	width: 100%;
+	 margin:0px auto; 
+  	text-align:center;
+}
+#countdown span {
+	font-size: 1.0em;
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   body{
+    	font-family: 'Slabo 27px', serif;
+    #me{
+	width: 100%;
+	margin:0px auto; 
+	text-align: center;
+	}
+	.jumbotron{
+	margin:0px auto; 
+	text-align: center;
+	}
+	#main { 
+  	margin:0px auto; 
+	text-align: center;
 }

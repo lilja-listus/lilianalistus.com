@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
         <title>
             Welcome!
         </title>
+    
+
+        <!-- Font for everything -->
+      <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
         <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
         </link>
 
@@ -11,14 +21,15 @@
          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
        <!-- jQuery CDN -->
-
+<link rel="stylesheet" type="text/css" href="index.css">
 <script
   src="https://code.jquery.com/jquery-2.2.4.js">
   </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
+
 
     <body>
+ <div class="container-fluid">
         <!-- To make it black class inverse, to fix - navbar-fixed-top-->
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -31,7 +42,7 @@
                         <span class="icon-bar"></span>
                       </button>
                       
-                    <a class="navbar-brand" href="#">Liliana Listus</a>
+                    <a class="navbar-brand" href="#">  Liliana Listus</a>
                 </div>
                 <!--To make hamburger -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
@@ -48,9 +59,8 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">
-                                Contact me
-                            </a>
+                            <a href="#">Contact me
+                                </a>
                         </li>
                     </ul>
                 </div>
@@ -58,16 +68,44 @@
         </nav>
 
         <!-- The body itsel using jumbotron in container -->
-        <div class="container">
-            <div class="jumbotron">
-                <h1> <i class="fab fa-angellist"></i>
-
-
-   Liliana Listus</h1>
+        <div class="container" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="jumbotron" >
+                <h1> <i class="fab fa-angellist"></i>Liliana Listus</h1>
                 <p>A traveller across time and space</p>
 
             </div>
         </div>
+
+        <!-- the image of me-->
+        <div id="me" class="thumbnail" >  <img  src="me_index.jpg">
+
+        </div>
+    <br>
+
+
+    <!--  countdown timer in an element -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div id="main">
+                        <div class="content">
+                            <div class="text">
+                                <h2>I am still working on this website</h2>
+                            </div> <!-- /.Text Div -->
+                            <div class="counter">
+                                <h3>Estimated Time Remaining Before Launch:</h3>
+                                    <div id="countdown">
+      
+                                    </div><!-- /#Countdown Div -->
+                            </div> <!-- /.Counter Div -->
+                        </div> <!-- /.Content Div -->
+                    </div> <!-- /#Main Div -->
+                </div> <!-- /.Columns Div -->
+            </div> <!-- /.Row Div -->
+        </div> <!-- /.Container Div -->
+  </div>
+    <script src="index.js"> </script>
+
     </body>
 </html>
 

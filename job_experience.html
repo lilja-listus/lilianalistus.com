@@ -20,8 +20,10 @@
   src="https://code.jquery.com/jquery-2.2.4.js">
   </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="job.js"></script>
 </head>
 <body>
+
 	
    <!-- To make it black class inverse, to fix - navbar-fixed-top-->
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -60,11 +62,12 @@
             </div>
         </nav>
 
+	<h1>My Working Experience</h1>
         <!-- The section with pictures -->
 	<section>
 		<div class="container-fluid">
 			<div class="container">
-				<h1 class="worlplace">UrbanZee</h1>
+				<h2 class="worlplace">UrbanZee</h2>
 				<p> August 2017 - April 2018</p>
 				<p> Turku, Finland</p>
 				<div class="row">
@@ -72,7 +75,7 @@
 						<div class="box">
 							<p class="boxText">My Job Tasks</p>
 							<div class="imgBox">
-								<img src="tasks.jpg"  width="100%" class="responsive">
+								<img src="images/tasks.jpeg"  width="100%" class="responsive">
 							</div>
 							<div class="content">
 								<h3>Software Developer Intern</h3>
@@ -86,12 +89,13 @@
 						<div class="box">
 							<p class="boxText">About the company</p>
 							<div class="imgBox">
-								<img src="urbanzee.png" width="100%" class="responsive">
+								<img src="images/urbanzee.jpg" width="100% class="responsive" id="urban_pic">
 							</div>
 							<div class="content">
 								<h3>About the company</h3>
 								<p>UrbanZee is a local startup in Turku, Finland</p>
-								<button> Learn More</button>
+								<p><a class="btn btn-primary btn-lg" role="button" onclick="window.open('http://www.urbanzee.com')">Learn more</a></p>
+
 							</div>
 						</div>
 					</div>
@@ -99,12 +103,167 @@
 						<div class="box">
 							<p class="boxText">Recommendation Letter</p>
 							<div class="imgBox">
-								<img src="recommendation.jpg" 
+								<img src="images/recommendation.jpeg" 
+								width="100%" class="responsive">
+
+							</div>
+							<div class="content">
+								<h3>Recommendation letter</h3>
+								<p>Click here to see recommendation letter from this workplace</p>
+
+								<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#urbanzee">
+							  Open the Document
+							</button>
+
+							</div>
+							</div>
+						</div>
+					</div>
+			
+
+							
+				<h2 class="worlplace">University of Turku</h2>
+				<p> January 2017-April 2017</p>
+				<p> Turku, Finland</p>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="box">
+							<p class="boxText">My Job Tasks</p>
+							<div class="imgBox">
+								<img src="images/teaching.jpg"  width="100%" class="responsive">
+							</div>
+							<div class="content">
+								<h3>Professor's Assistant</h3>
+								<p>Assisting Russian language professor in holding a course.</p>
+								<p>Designing and holding a Ukrainian for Beginners course.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="box">
+							<p class="boxText">About the company</p>
+							<div class="imgBox">
+								<img src="images/utu.jpg" width="100%" class="responsive">
+							</div>
+							<div class="content">
+								<h3>About the company</h3>
+								<p>University of Turku is one of the biggest Finnish universities and the first one offering higher education in Finnish</p>
+								<p><a class="btn btn-primary btn-lg" role="button"  onclick="window.open('http://www.utu.fi/en')">Learn more</a></p>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="box">
+							<p class="boxText">Recommendation Letter</p>
+							<div class="imgBox">
+								<img src="images/recom_utu.jpeg" 
+								width="100%" class="responsive">
+							</div>
+							<div class="content">
+								<h3>Recommendation letter</h3>
+								<p>Recommendation letter comes a bit later</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<h2 class="worlplace">Embassy of Finland in Ukraine</h2>
+				<p> September 2014-June 2016</p>
+				<p> Kyiv, Ukraine</p>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="box">
+							<p class="boxText">My Job Tasks</p>
+							<div class="imgBox">
+								<img src="images/tutor.jpeg"  width="100%" class="responsive">
+							</div>
+							<div class="content">
+								<h3>Finnish Tutor</h3>
+								<p>Designing individual Finnish lessons.</p>
+								<p>Tutoring the local staff.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="box">
+							<p class="boxText">About the company</p>
+							<div class="imgBox">
+								<img src="images/ukr_fi.jpg" width="100%" class="responsive">
+							</div>
+							<div class="content">
+								<h3>About the company</h3>
+								<p>Embassy of Finland in Ukraine is diplomatic representative of the country. It also connects cultures and business interests of two countries</p>
+								<p><a class="btn btn-primary btn-lg" role="button"  onclick="window.open('http://www.finland.org.ua/Public/Default.aspx')">Learn more</a></p>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="box">
+							<p class="boxText">Recommendation Letter</p>
+							<div class="imgBox">
+								<img src="images/recom_fin.jpeg" 
 								width="100%" class="responsive">
 							</div>
 							<div class="content">
 								<h3>Recommendation letter</h3>
 								<p>Click here to see recommendation letter from this workplace</p>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#embassy">
+								  Open the Document
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<h2 class="worlplace">Ukrainian Evangelical Theological Seminary</h2>
+				<p> September 2011-August 2012</p>
+				<p> Kyiv, Ukraine</p>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="box">
+							<p class="boxText">My Job Tasks</p>
+							<div class="imgBox">
+								<img src="images/projects.jpeg"  width="100%" class="responsive">
+							</div>
+							<div class="content">
+								<h3>Project Manager</h3>
+								<p>Preparing and managing projects, including translation of course materials.</p>
+								<p>Organizing local events and communicating with international partners.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="box">
+							<p class="boxText">About the company</p>
+							<div class="imgBox">
+								<img src="images/uets.jpg" width="100%" class="responsive">
+							</div>
+							<div class="content">
+								<h3>About the company</h3>
+								<p>UETS is a multi-demoninational seminary that educates ministers for different church needs</p>
+								<p><a class="btn btn-primary btn-lg" role="button" onclick="window.open('https://uets.net/en/')">Learn more</a></p>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="box">
+							<p class="boxText">Recommendation Letter</p>
+							<div class="imgBox">
+								<img src="images/recom_uets.jpeg" 
+								width="100%" class="responsive">
+							</div>
+							<div class="content">
+								<h3>Recommendation letter</h3>
+								<p>Click here to see recommendation letter from this workplace</p>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#uets">
+								  Open the Document
+								</button>
 							</div>
 						</div>
 					</div>
@@ -112,5 +271,58 @@
 			</div>
 		</div>
 </section>
+							<!-- Modal on Urbanzee -->
+							<div class="modal fade" id="urbanzee" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">Cerificate of Internship</h4>
+							      </div>
+							      <div class="modal-body">
+							        <object type="application/pdf" data="documents/UrbanZee.pdf" width="100%" height="700"">No Support</object>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+
+								<!-- Modal on Embassy -->
+							<div class="modal fade" id="embassy" tabindex="-1" role="dialog" aria-labelledby="myModalLabelEmbass">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabelEmbass">Letter From the Embassy</h4>
+							      </div>
+							      <div class="modal-body">
+							        <object  data="documents/Embassy.jpg" width="100%" height="700"">No Support</object>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+
+					<!-- Modal on Seminary -->
+							<div class="modal fade" id="uets" tabindex="-1" role="dialog" aria-labelledby="myModalLabelSemin">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabelSemin">Reference Letter</h4>
+							      </div>
+							      <div class="modal-body">
+							        <object  data="documents/uets.pdf" width="100%" height="700"">No Support</object>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 </body>
 </html>

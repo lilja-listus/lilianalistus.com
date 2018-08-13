@@ -1,0 +1,23 @@
+body{
+	background-color: #232323;
+	color: white;
+}
+
+#container{
+	max-width: 600px;
+	margin: 0 auto;
+}
+h1{
+	color: white;
+}
+
+
+.boxed {
+  	width: 20%;
+	background: purple;
+	float: left;
+	margin: 1.66%;
+	height: 100px;
+	color: white;
+
+}

@@ -1,4 +1,3 @@
 # lilianalistus.com
 
-This is project  working on my personal website
-
+The project is my personal web-site that used to run at lilianalistus.com. 

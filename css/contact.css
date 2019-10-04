@@ -35,3 +35,17 @@ a:hover,a:focus{
 textarea.form-control{
     height:100px;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+
+.navbar-inverse{
+padding: 0 20px;
+}
+
+#contact{
+	padding: 20px;
+}
+
+.list-inline .banner-social-buttons, li{
+	margin: 10px;
+}
+}
